@@ -1,0 +1,27 @@
+/* ELEMENTS */
+
+/* IDS */
+
+#main-spread {
+    height: 69.5vh;
+    width: 80vw;
+}
+
+#shoutbox-form {
+    height: 69.5vh;
+}
+
+#shoutbox-output {
+    height: 69.5vh;
+    width: 49vw;
+}
+
+/* CLASSES */
+
+.is-fixed {
+    position: fixed;
+}
+
+/* OTHER */
+
+/* MOBILE */
