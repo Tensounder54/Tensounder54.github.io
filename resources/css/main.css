@@ -4,7 +4,7 @@
 
 #main-spread {
     height: 69.5vh;
-    width: 80vw;
+    width: 100%; /*80VW*/
 }
 
 #shoutbox-form {
@@ -13,7 +13,7 @@
 
 #shoutbox-output {
     height: 69.5vh;
-    width: 49vw;
+    width: 100%; /*49VW*/
 }
 
 /* CLASSES */
