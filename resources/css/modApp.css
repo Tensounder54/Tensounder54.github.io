@@ -1,0 +1,38 @@
+/* ELEMENTS */
+
+a {
+    text-decoration: underline;     
+}
+
+/* IDS */
+
+#main-spread {
+    height: 69.5vh;
+    width: 100%; /*80VW*/
+}
+
+#hostBanner {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    transform: rotate(-90deg);
+}
+
+/* CLASSES */
+
+.is-fixed {
+    position: fixed;
+}
+
+/* OTHER */
+
+/* MOBILE */
+
+@media only screen and (max-width: 768px) {
+    #hostBanner {
+        position: fixed;
+        top: -32px;
+        left: -32px;
+        transform: rotate(-90deg) scale(0.5);
+    }
+}

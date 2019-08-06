@@ -1,5 +1,9 @@
 /* ELEMENTS */
 
+a {
+    text-decoration: underline;     
+}
+
 /* IDS */
 
 #main-spread {
