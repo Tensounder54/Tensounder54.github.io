@@ -24,6 +24,29 @@ a {
     position: fixed;
 }
 
+.has-text-blurple {
+    color: #7289DA;
+}
+
+.has-text-greyple {
+    color: #99AAB5;
+}
+
+.has-text-orangered {
+    color: #FF4500;
+}
+
+.ocg-icons {
+    -webkit-transition: filter 250ms ease-in-out;
+    -moz-transition: filter 250ms ease-in-out;
+    -o-transition: filter 250ms ease-in-out;
+    transition: filter 250ms ease-in-out;
+}
+
+.ocg-icons:hover {
+    filter:blur(50px);
+}
+
 /* OTHER */
 
 /* MOBILE */
