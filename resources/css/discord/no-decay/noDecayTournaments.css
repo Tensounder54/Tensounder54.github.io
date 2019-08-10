@@ -1,0 +1,123 @@
+/* ELEMENTS */
+
+
+
+/* IDS */
+
+#main-spread {
+    height: 69.5vh;
+    width: 100%; /*80VW*/
+}
+
+#tournament-form {
+    margin: 0px 0px 50px 0px; 
+    height: 1409px;
+}
+
+#hostBanner {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+#menu {
+    position: fixed;
+    top: 0px;
+    left: -3px;
+    width: 150px;
+}
+
+/* CLASSES */
+
+.is-fixed {
+    position: fixed;
+}
+
+.is-admin {
+    color: #ffffff;
+    background-color: #9898f3;
+}
+
+.is-head {
+    color: #ffffff;
+    background-color: #31fcd8;
+}
+
+.is-staff {
+    color: #ffffff;
+    background-color: #2ab895;
+}
+
+.staff-icon {
+    border-radius: 50px;
+    /* height: 107px; */
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+
+.staff-icon:hover,
+.staff-icon + a:hover {
+    filter:blur(5px);
+}
+
+.staff-icon + .card {
+    width: 20vw;
+    position: fixed;
+    top: 12.5vh;
+    left: 55vw;
+    opacity: 0;
+    border-radius: 5px;
+    /* -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out; */
+}
+
+.staff-icon:hover + .card {
+    opacity: 1;
+}
+/* .staff-icon + .card:hover */
+
+/* OTHER */
+
+#menu .container {
+    width: 150px;
+}
+
+#general-lobby-info ul li::before,
+#team-match-info ul li::before {
+    content: "• ";
+}
+
+#general-lobby-info ul li ul li, 
+#team-match-info ul li ul li::before {
+    margin-left: 15px;
+}
+
+#general-lobby-info ul li ul li::before, 
+#team-match-info ul li ul li::before {
+    content: "‣ ";
+}
+
+#general-lobby-info ul li ul li ul li, 
+#team-match-info ul li ul li::before {
+    margin-left: 30px;
+}
+
+#general-lobby-info ul li ul li ul li::before, 
+#team-match-info ul li ul li::before {
+    content: "* ";
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 768px) {
+    #hostBanner {
+        position: fixed;
+        top: -32px;
+        right: -32px;
+        transform: scale(0.5);
+    }
+}
