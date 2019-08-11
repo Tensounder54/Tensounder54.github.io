@@ -133,7 +133,11 @@
     }
 
     #menu {
-        left: -200px
+        left: -200px;
+        -webkit-transition: all 250ms ease-in-out 1s;
+        -moz-transition: all 250ms ease-in-out 1s;
+        -o-transition: all 250ms ease-in-out 1s;
+        transition: all 250ms ease-in-out 1s; 
     }
 
     #menu:hover {
