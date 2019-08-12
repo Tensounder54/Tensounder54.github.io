@@ -10,8 +10,10 @@
 }
 
 #tournament-form {
-    margin: 0px 0px 50px 0px; 
-    height: 1409px;
+    margin: 0px 0px 50px 0px;
+    height: 93em;/* calc(100% + 9px) */
+    justify-content: center;
+    align-content: center; 
 }
 
 #hostBanner {
@@ -92,34 +94,19 @@
 
 #general-lobby-info ul li,
 #team-match-info ul li {
-    /* text-align-last: justify; */
-}
-
-#general-lobby-info ul li::before,
-#team-match-info ul li::before {
-    content: "• ";
+    list-style: disc inside;
 }
 
 #general-lobby-info ul li ul li, 
 #team-match-info ul li ul li {
-    margin-left: 15px;
-    /* text-align-last: justify; */
-}
-
-#general-lobby-info ul li ul li::before, 
-#team-match-info ul li ul li::before {
-    content: "‣ ";
+    margin-left: 30px;
+    list-style: circle inside;
 }
 
 #general-lobby-info ul li ul li ul li, 
 #team-match-info ul li ul li {
-    margin-left: 30px;
-    /* text-align-last: justify; */
-}
-
-#general-lobby-info ul li ul li ul li::before, 
-#team-match-info ul li ul li::before {
-    content: "* ";
+    margin-left: 60px;
+    list-style: square inside;
 }
 
 /* MOBILE */
