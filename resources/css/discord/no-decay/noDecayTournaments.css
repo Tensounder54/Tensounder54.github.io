@@ -104,7 +104,7 @@
 }
 
 #general-lobby-info ul li ul li ul li, 
-#team-match-info ul li ul li {
+#team-match-info ul li ul li ul li{
     margin-left: 60px;
     list-style: square inside;
 }
