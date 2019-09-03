@@ -18,6 +18,101 @@ a {
     transform: rotate(-90deg);
 }
 
+#hammer-1 {
+    transform: rotateY(180deg);
+    -webkit-transition: transform 100ms ease-in;
+    -moz-transition: transform 100ms ease-in;
+    -ms-transition: transform 100ms ease-in;
+    -o-transition: transform 100ms ease-in;
+    transition: transform 100ms ease-in;
+}
+
+#hammer-1:hover {
+    transform: rotateY(180deg) rotateZ(-30deg);
+}
+
+#hammer-2 {
+    -webkit-transition: transform 100ms ease-in;
+    -moz-transition: transform 100ms ease-in;
+    -ms-transition: transform 100ms ease-in;
+    -o-transition: transform 100ms ease-in;
+    transition: transform 100ms ease-in;
+}
+
+#hammer-2:hover {
+    transform: rotateZ(-30deg);
+}
+
+#section-2-torb {
+    transform: scale(2.5);
+    margin: 0 0 60px 45px;
+}
+
+#section-2-wordmark {
+    margin: 50px 30px 0 0;
+    -webkit-transition: all 1000ms ease;
+    -moz-transition: all 1000ms ease;
+    -ms-transition: all 1000ms ease;
+    -o-transition: all 1000ms ease;
+    transition: all 1000ms ease;
+}
+
+#section-2-wordmark:hover {
+    filter: hue-rotate(90deg);
+    transform: scale(2.5);
+}
+
+#section-3-redirect {
+    margin-top: 76px;
+    transform: scale(3);
+    -webkit-transition: all 1000ms ease;
+    -moz-transition: all 1000ms ease;
+    -ms-transition: all 1000ms ease;
+    -o-transition: all 1000ms ease;
+    transition: all 1000ms ease;
+}
+
+#section-3-redirect:hover {
+    transform: scale(1.5);
+}
+
+#section-3-wordmark {
+    margin-top: 100px;
+    -webkit-transition: all 1000ms ease;
+    -moz-transition: all 1000ms ease;
+    -ms-transition: all 1000ms ease;
+    -o-transition: all 1000ms ease;
+    transition: all 1000ms ease;
+}
+
+#section-3-wordmark:hover {
+    transform: rotate(360deg);
+}
+
+#deltin3dInWS {
+    margin-top: 126px;
+    transform: scale(3);
+    z-index: 50;
+    -webkit-transition: all 1000ms ease;
+    -moz-transition: all 1000ms ease;
+    -ms-transition: all 1000ms ease;
+    -o-transition: all 1000ms ease;
+    transition: all 1000ms ease;
+}
+
+#deltin3dInWS:hover {
+    transform: scale(6.5);
+    margin: 200px 75px 0 0;
+}
+
+#deltin3dInWSCaption {
+    margin-top: 100px;
+}
+
+#sendBtn {
+    margin-top: 25px;
+}
+
 /* CLASSES */
 
 .is-fixed {
@@ -34,6 +129,16 @@ a {
 
 .has-text-orangered {
     color: #FF4500;
+}
+
+@media screen and (min-width: 600px) {
+    .has-auto-overflow-desktop {
+        overflow: auto;
+    }
+
+    .is-data-input-desktop {
+        height: 50vh;
+    }
 }
 
 .ocg-icons {
