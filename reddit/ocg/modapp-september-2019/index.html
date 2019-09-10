@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 	<head>
-		<title>Moderator Application - /r/OCG - August 2019</title>
+		<title>Moderator Application - /r/OCG - September 2019</title>
 		<link rel="icon" href="https://b.thumbs.redditmedia.com/t1-Y5E41kLWC6U81csBC0evbczbihoCBb9y_IEZbrkk.png">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,7 @@
             <div class="hero-body">
                 <div class="container">
                     <h1 class="title is-2">
-                        <a href="//old.reddit.com/r/ocg">/r/OverwatchCustomGames</a> Moderator Application - August 2019
+                        <a href="//old.reddit.com/r/ocg">/r/OverwatchCustomGames</a> Moderator Application - September 2019
                     </h1>
                     <hr>
                     <h2 class="subtitle is-5">
@@ -44,33 +44,35 @@
                         <div class="column is-one-half">
                             <div class="field">
                                 <label class="label"><span class="has-text-danger">*</span> Reddit Username</label>
+                                <p class="help">Please include the <code>/u/</code>.</p><br>
                                 <div class="control">
-                                    <input class="input" type="text" placeholder="Reddit Username">
+                                    <input id="redditUsername" class="input" type="text" placeholder="Reddit Username">
                                 </div>
                              </div>
                             <div class="field">
                                 <label class="label"><span class="has-text-danger">*</span> Discord Username</label>
+                                <p class="help">Please include the <code>#</code>.</p><br>
                                 <div class="control">
-                                    <input class="input" type="text" placeholder="Discord Username">
+                                    <input id="discordUsername" class="input" type="text" placeholder="Discord Username">
                                 </div>
                             </div>
                             <div class="field">
                                 <label class="label"><span class="has-text-danger">*</span> How old are you?</label>
                                 <div class="control">
-                                    <input class="input" type="text" placeholder="Age">
+                                    <input id="age" class="input" type="text" placeholder="Age">
                                 </div>
                             </div>
                             <div class="field">
                                 <label class="label">What timezone are you in?</label>
                                 <div class="control">
-                                    <input class="input" type="text" placeholder="BST, EST, JST, etc...">
+                                    <input id="timezone" class="input" type="text" placeholder="BST, EST, JST, etc...">
                                 </div>
                             </div>
                             <div class="field">
                                 <label class="label"><span class="has-text-danger">*</span> How many hours do you spend on <span class="has-text-orangered">Reddit</span>/<span class="has-text-blurple">Discord</span> a day?</label>
                                 <div class="control">
                                     <div class="select">
-                                    <select>
+                                    <select id="hours">
                                         <option>&lt;select-number-of-hours&gt;</option>
                                         <option>0-2</option>
                                         <option>2-4</option>
@@ -85,11 +87,11 @@
                                 <label class="label">Do you spend more time on <span class="has-text-blurple">Discord</span> or <span class="has-text-orangered">Reddit</span>?</label>
                                 <div class="control">
                                     <label class="radio has-text-grey-darker">
-                                        <input type="radio" name="answer">
+                                        <input class="media" type="radio" name="answer">
                                         <span class="has-text-blurple">Discord</span>
                                     </label>
                                     <label class="radio has-text-grey-darker">
-                                        <input type="radio" name="answer">
+                                        <input class="media" type="radio" name="answer">
                                         <span class="has-text-orangered">Reddit</span>
                                     </label>
                                 </div>
@@ -98,7 +100,7 @@
                                 <label class="label">What's your favorite development language?</label>
                                 <div class="control">
                                     <div class="control">
-                                        <input class="input" type="text" placeholder="Enter language here...">
+                                        <input id="programmingLanguage" class="input" type="text" placeholder="Enter language here...">
                                     </div>
                                 </div>
                             </div>
@@ -120,11 +122,11 @@
                                 </label>
                                 <div class="control">
                                     <label class="radio has-text-grey-darker">
-                                        <input type="radio" name="answer">
+                                        <input class="toolbox" type="radio" name="answer">
                                         Yes
                                     </label>
                                     <label class="radio has-text-grey-darker">
-                                        <input type="radio" name="answer">
+                                        <input class="toolbox" type="radio" name="answer">
                                         No
                                     </label>
                                 </div>
@@ -205,41 +207,41 @@
                             <div class="field">
                                 <label class="label"><span class="has-text-danger">*</span> What do you think would make you a good moderator?</label>
                                 <div class="control">
-                                    <textarea class="textarea"></textarea>
+                                    <textarea id="goodMod" class="textarea"></textarea>
                                 </div>
                             </div>
                             <div class="field">
                                 <label class="label">What “philosophy” should mods adhere to?</label>
                                 <p class="help"> Completely hands off, or more in-depth? Why?</p><br>
                                 <div class="control">
-                                    <textarea class="textarea"></textarea>
+                                    <textarea id="modPhilosophy" class="textarea"></textarea>
                                 </div>
                             </div>
                             <div class="field">
                                 <label class="label"><span class="has-text-danger">*</span> What would you do with a questionable post or comment where we don't have a specific rule to handle it?</label>
                                 <div class="control">
-                                    <textarea class="textarea"></textarea>
+                                    <textarea id="noRule" class="textarea"></textarea>
                                 </div>
                             </div>
                             <div class="field">
                                 <label class="label">Where else do you moderate and how has that experience been?</label>
                                 <p class="help">If there is somthing noteworthy that you have done in relation to moderation then please link it.</p><br>
                                 <div class="control">
-                                    <textarea class="textarea"></textarea>
+                                    <textarea id="experiance" class="textarea"></textarea>
                                 </div>
                             </div>
                             <div class="field">
                                 <label class="label">As a moderator, what tasks do you regularly do?</label>
                                 <p class="help">(Check modmail, check the new queue, the mod queue, etc.)</p><br>
                                 <div class="control">
-                                    <textarea class="textarea"></textarea>
+                                    <textarea id="tasks" class="textarea"></textarea>
                                 </div>
                             </div>
                             <div class="field">
                                 <p class="help"><b><span class="has-text-danger">*</span> It is important for you to be trustworthy and professional when dealing with mod mail, post and comments.</b></p>
                                 <label class="label">How can we be sure that you will act in this manor when dealing with sensative situations?</label>
                                 <div class="control">
-                                    <textarea class="textarea"></textarea>
+                                    <textarea id="trust" class="textarea"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -266,9 +268,9 @@
                                         </a>
                                     </span>? Please be honest.</label>
                                 <div class="control">
-                                    <textarea class="textarea" placeholder="Favorite"></textarea>
+                                    <textarea id="favorite" class="textarea" placeholder="Favorite"></textarea>
                                     <br>
-                                    <textarea class="textarea" placeholder="Least Favorite"></textarea>
+                                    <textarea id="leastFavorite" class="textarea" placeholder="Least Favorite"></textarea>
                                 </div>
                             </div>
                             <div class="field">
@@ -279,24 +281,24 @@
                                     </span> to make it better?</label>
                                 <p class="help">For exsample we recently implented a rule that requests that people share codeblocks instead of screenshots of the workshop.</p><br>
                                 <div class="control">
-                                    <textarea class="textarea"></textarea>
+                                    <textarea id="ideas" class="textarea"></textarea>
                                 </div>
                             </div>
                             <div class="field">
                                 <label class="label">Biggest problem with reddit in general?</label>
                                 <div class="control">
-                                    <textarea class="textarea"></textarea>
+                                    <textarea id="problems" class="textarea"></textarea>
                                 </div>
                             </div>
                             <div class="field">
                                 <label class="label">Is there anything else about you that we would be upset about if we later discovered it?</label>
-                                <p class="help">We higly value honesty here at <span class="has-text-link">
+                                <p class="help">We highly value honesty here at <span class="has-text-link">
                                         <a href="https://old.reddit.com/r/OverwatchCustomGames">
                                             /r/OverwatchCustomGames
                                         </a>
                                     </span> so telling us now is likly to earn you favour.</p><br>
                                 <div class="control">
-                                    <textarea class="textarea"></textarea>
+                                    <textarea id="security" class="textarea"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -327,35 +329,6 @@
             <div class="hero-body">
                 <div class="container">
                     <div class="columns is-variable is-8">
-                        <div class="column is-one-half">
-                            <div class="columns is-mobile is-multiline is-centered">
-                                <div class="field">
-                                    <label class="label">Please make us a new hero in the workshop. Please paste the code for this in the textbox below.</label>
-                                    <p class="help">For this task we would like you to replace Soldier 76's ablities and ultamate with new ones.</p><br>
-                                    <div class="control">
-                                        <textarea class="textarea"></textarea>
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <label class="label">Please make us a gamemode in the workshop. Please paste the code for this in the textbox below.</label>
-                                    <p class="help">
-                                        For this task we would like you to make a gamemode that is based around a hero.
-                                        It's fine if you choose to make a clone of an existing game but you will get 0 points for plagurizing.
-                                        You will get extra points if we can't find an existing game mode for that hero.
-                                    </p><br>
-                                    <div class="control">
-                                        <textarea class="textarea"></textarea>
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <label class="label">Finally, is there a Workshop Project or Custom Game that your perticularly proud of?</label>
-                                    <p class="help">Share it with us here!</p><br>
-                                    <div class="control">
-                                        <input class="input is-medium" type="text" placeholder="Project Link/Code here.">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <div class="column is-one-half is-hidden-mobile">
                             <div class="columns is-mobile is-multiline is-centered">
                                 <div class="column is-one-third">
@@ -380,6 +353,17 @@
                                             </a>
                                         </span>
                                     </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-one-half">
+                            <div class="columns is-mobile is-multiline is-centered">
+                                <div class="field">
+                                    <label class="label">Finally, is there a Workshop Project or Custom Game that your perticularly proud of?</label>
+                                    <p class="help">Share it with us here!</p><br>
+                                    <div class="control">
+                                        <textarea id="project" class="textarea" placeholder="Project Link/Code" rows="14"></textarea>
+                                    </div>
                                 </div>
                             </div>
                         </div>
