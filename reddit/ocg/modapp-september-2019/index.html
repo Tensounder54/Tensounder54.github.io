@@ -73,12 +73,12 @@
                                 <div class="control">
                                     <div class="select">
                                     <select id="hours">
-                                        <option>&lt;select-number-of-hours&gt;</option>
-                                        <option>0-2</option>
-                                        <option>2-4</option>
-                                        <option>4-6</option>
-                                        <option>6-10</option>
-                                        <option>10+</option>
+                                        <option value="">&lt;select-number-of-hours&gt;</option>
+                                        <option value="0-2">0-2</option>
+                                        <option value="2-4">2-4</option>
+                                        <option value="4-6">4-6</option>
+                                        <option value="6-10">6-10</option>
+                                        <option value="10+">10+</option>
                                     </select>
                                     </div>
                                 </div>
@@ -87,11 +87,11 @@
                                 <label class="label">Do you spend more time on <span class="has-text-blurple">Discord</span> or <span class="has-text-orangered">Reddit</span>?</label>
                                 <div class="control">
                                     <label class="radio has-text-grey-darker">
-                                        <input class="media" type="radio" name="answer">
+                                        <input class="media" type="radio" name="timeSpentanswer" value="Discord">
                                         <span class="has-text-blurple">Discord</span>
                                     </label>
                                     <label class="radio has-text-grey-darker">
-                                        <input class="media" type="radio" name="answer">
+                                        <input class="media" type="radio" name="timeSpentanswer" value="Reddit">
                                         <span class="has-text-orangered">Reddit</span>
                                     </label>
                                 </div>
@@ -122,11 +122,11 @@
                                 </label>
                                 <div class="control">
                                     <label class="radio has-text-grey-darker">
-                                        <input class="toolbox" type="radio" name="answer">
+                                        <input class="toolbox" type="radio" name="toolboxAnswer" value="Yes">
                                         Yes
                                     </label>
                                     <label class="radio has-text-grey-darker">
-                                        <input class="toolbox" type="radio" name="answer">
+                                        <input class="toolbox" type="radio" name="toolboxAnswer" value="No">
                                         No
                                     </label>
                                 </div>
@@ -238,8 +238,8 @@
                                 </div>
                             </div>
                             <div class="field">
-                                <p class="help"><b><span class="has-text-danger">*</span> It is important for you to be trustworthy and professional when dealing with mod mail, post and comments.</b></p>
-                                <label class="label">How can we be sure that you will act in this manor when dealing with sensative situations?</label>
+                                <p class="help"><b>It is important for you to be trustworthy and professional when dealing with mod mail, post and comments.</b></p>
+                                <label class="label"><span class="has-text-danger">*</span> How can we be sure that you will act in this manner when dealing with sensative situations?</label>
                                 <div class="control">
                                     <textarea id="trust" class="textarea"></textarea>
                                 </div>
@@ -262,15 +262,15 @@
                     <div class="columns is-variable is-8">
                         <div class="column is-one-half is-data-input-desktop has-auto-overflow-desktop">
                             <div class="field">
-                                <label class="label"><span class="has-text-danger">*</span> What is your favorite and least favourite things about <span class="has-text-link">
+                                <label class="label"><span class="has-text-danger">*</span> What is your favourite and least favourite things about <span class="has-text-link">
                                         <a href="https://old.reddit.com/r/OverwatchCustomGames">
                                             /r/OverwatchCustomGames
                                         </a>
                                     </span>? Please be honest.</label>
                                 <div class="control">
-                                    <textarea id="favorite" class="textarea" placeholder="Favorite"></textarea>
+                                    <textarea id="favourite" class="textarea" placeholder="Favourite"></textarea>
                                     <br>
-                                    <textarea id="leastFavorite" class="textarea" placeholder="Least Favorite"></textarea>
+                                    <textarea id="leastFavourite" class="textarea" placeholder="Least Favourite"></textarea>
                                 </div>
                             </div>
                             <div class="field">
@@ -296,7 +296,8 @@
                                         <a href="https://old.reddit.com/r/OverwatchCustomGames">
                                             /r/OverwatchCustomGames
                                         </a>
-                                    </span> so telling us now is likly to earn you favour.</p><br>
+                                    </span> so telling us now is likly to earn you favour.</p>
+                                <p class="help">If you wish to add this to the mod app when it's loaded into a message the mods form then that's fine.</p><br>
                                 <div class="control">
                                     <textarea id="security" class="textarea"></textarea>
                                 </div>
@@ -385,7 +386,7 @@
                             </h2>
                         </div>
                         <div class="column is-one-half">
-                            <a id="sendBtn" class="button is-danger is-large is-fullwidth">Send</a>
+                            <a id="sendBtn" class="button is-danger is-large is-fullwidth" onclick="sendResponse()">Send</a>
                         </div>
                     </div>
                 </div>
