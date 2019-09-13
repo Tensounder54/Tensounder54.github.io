@@ -87,4 +87,20 @@
         right: -32px;
         transform: scale(0.5);
     }
+
+    #menu {
+        left: -137px;
+        -webkit-transition: all 250ms ease-in-out 500ms;
+        -moz-transition: all 250ms ease-in-out 500ms;
+        -o-transition: all 250ms ease-in-out 500ms;
+        transition: all 250ms ease-in-out 500ms;
+    }
+
+    #menu:hover {
+        left: 0px
+    }
+
+    #menu div.container div.columns.is-mobile div.column.is-one-half a.button.is-text {
+        text-decoration: none;
+    }
 }
