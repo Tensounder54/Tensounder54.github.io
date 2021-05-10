@@ -67,12 +67,6 @@ body,
 	filter: none;
 }
 
-/* Enable this selector if the user is not logged in. Otherwise disable it. */
-/* #gov-container button.voteButton:disabled {
-	display: none;
-	color: var(--accent-colour-dark);
-} */
-
 #gov-container .Post > div > div:nth-last-child(2) > div > div:last-child > form > div:last-child {
 	color: var(--monochrome-less);
 	margin: 20px 0px;
