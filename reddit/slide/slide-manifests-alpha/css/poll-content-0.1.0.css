@@ -1,0 +1,87 @@
+/* Import Android Font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* We should look to decenterlise this for release. Could we store this in the app's package? */
+
+
+/* For colour scheme see the following root.*/
+
+/* Chats for Slide Vars */
+:root {
+	--base-colour: #E64A19;
+    --accent-colour-light: #ffe180;
+	--accent-colour: #FFC400;
+    --accent-colour-dark: #806200;
+	--background-colour: #181818;
+	--alt-background-colour: #303030;
+    --monochrome-less: #b3b3b3;
+	--monochrome: whitesmoke;
+    --monochrome-er: white;
+    --monochrome-alt: black;
+}
+
+body,
+#gov-container,
+#gov-container div {
+	background-color: var(--background-colour);
+	border: none;
+	color: var(--monochrome);
+	font-family: Roboto;
+}
+
+#header,
+#header + div,
+#gov-container .Post > div > div {
+	display: none;
+}
+
+#gov-container > div:first-of-type > div:first-of-type > div:first-of-type {
+	margin: 0;
+	max-width: none;
+}
+
+#gov-container .Post,
+#gov-container .Post > div > div:nth-last-child(2) {
+	display: block;
+	margin: 0;
+	max-width: none;
+	padding: 0;
+}
+
+#gov-container .Post > div > div:nth-last-child(2) > div > div:first-child {
+	padding: 9px 0px 0px 1px;
+}
+
+#gov-container .Post > div > div:nth-last-child(2) > div > div:first-child > div > a {
+	border: none;
+	color: var(--accent-colour);
+}
+
+#gov-container .Post > div > div:nth-last-child(2) > div > div:last-child {
+	padding: 10px 0px 0px 10px;
+}
+
+
+#gov-container button.voteButton {
+	border: none;
+	color: var(--accent-colour);
+	filter: none;
+}
+
+/* Enable this selector if the user is not logged in. Otherwise disable it. */
+/* #gov-container button.voteButton:disabled {
+	display: none;
+	color: var(--accent-colour-dark);
+} */
+
+#gov-container .Post > div > div:nth-last-child(2) > div > div:last-child > form > div:last-child {
+	color: var(--monochrome-less);
+	margin: 20px 0px;
+}
+
+#gov-container .Post > div > div:nth-last-child(2) > div > div:last-child > form > div:last-child > span {
+	margin: 0px 0px 0px 3px;
+}
+
+#gov-container button.voteButton:disabled + div::after {
+	border: none;
+}

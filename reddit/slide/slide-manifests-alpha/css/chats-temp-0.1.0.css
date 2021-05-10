@@ -1,0 +1,322 @@
+/* Import Android Font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* We should look to decenterlise this for release. Could we store this in the app's package? */
+
+
+/* For colour scheme see the following root.*/
+
+/* Chats for Slide Vars */
+:root {
+	--base-colour: #E64A19;
+    --accent-colour-light: #ffe180;
+	--accent-colour: #FFC400;
+    --accent-colour-dark: #806200;
+	--background-colour: #181818;
+	--alt-background-colour: #303030;
+    --monochrome-less: #b3b3b3;
+	--monochrome: whitesmoke;
+    --monochrome-er: white;
+    --monochrome-alt: black;
+}
+
+/* Reddit Vars */
+:root {
+    --activity-button-active: var(--accent-colour);
+    --activity-checkbox-checked: var(--accent-colour);
+    --activity-checkbox-checkmark: var(--monochrome);
+    --activity-checkbox-unchecked: var(--monochrome);
+    --activity-checkbox-uncheckedBorder: var(--monochrome);
+    --activity-icon-active: var(--accent-colour);
+    --activity-icon-contrast: var(--monochrome-alt);
+    --activity-icon-default: var(--monochrome);
+    --activity-icon-disable: var(--monochrome-less);
+    --activity-icon-hover: var(--monochrome-er);
+    --activity-icon-nsfw-bg: var(--monochrome-alt);
+    --activity-icon-nsfw-text: var(--monochrome);
+    --activity-input-border: #dadada00;
+    --activity-input-channelRename: #e6e6e6;
+    --activity-input-color: var(--monochrome);
+    --activity-input-error: #EA0027;
+    --activity-input-focusBg: var(--accent-colour-light);
+    --activity-input-focusColor: var(--monochrome);
+    --activity-input-ownerBg: var(--accent-colour)
+    --activity-link-hoverText: var(--accent-colour-light) !important;
+    --activity-link-staticText: var(--accent-colour);
+    --activity-link-staticUnderline: var(--accent-colour);
+    --activity-send-disable: var(--accent-colour);
+    --activity-send-hover: var(--accent-colour-dark);
+    --activity-text-active: var(--accent-colour);
+    --activity-text-fade: var(--monochrome);
+    --activity-text-highlight: var(--monochrome);
+    --activity-text-light: var(--monochrome);
+    --activity-text-regular: var(--monochrome);
+    --activity-text-success: #46D160;
+    --activity-text-warning: #EA0027;
+    --layout-body: var(--background-colour);
+    --layout-colsBorder: #fff0;
+    --layout-controlsBorder: #00000026;
+    --layout-header-counterBg: var(--accent-colour);
+    --layout-header-counterText: var(--accent-colour);
+    --layout-scrollbar: #ccc;
+    --layout-scrollbarHover: #999
+    --message-list-item-button: #878a8c00;
+    --message-list-item-ownerBg: var(--alt-background-colour);
+    --sidebar-background: var(--background-colour);
+    --sidebar-basic-background-active: var(--accent-colour);
+    --sidebar-basic-background-hover: var(--alt-background-colour);
+    --sidebar-subreddit-background-active: var(--accent-colour);
+    --sidebar-subreddit-background-hover: var(--alt-background-colour);
+    --sidebar-text-divider: var(--monochrome);
+    --subreddit-iconBg: var(--accent-colour)
+    --toast-pending: var(--alt-background-colour);
+    --toast-success: #46D160;
+}
+
+body {
+	font-family: Roboto;
+}
+
+/* a:hover {
+	color: var(--accent-colour-dark);
+} */
+
+/* #tooltip-container {
+		background-color: var(--background-colour);
+} */
+
+/* #OverlayNavTooltip--Default {
+    background-color: #00000000;
+}
+
+    #OverlayNavTooltip--Default svg {
+        fill: var(--monchrome);
+    } */
+
+/* Messageing Input Area */
+
+#MessageInputTooltip--Container,
+#MessageInputTooltip--Container textarea,
+#MessageInputTooltip--Container div button {
+					background-color: var(--alt-background-colour);
+}
+
+/* #OverlayNavTooltip--ChatRequest {
+			background-color: var(--base-colour);
+		}
+
+			#OverlayNavTooltip--ChatRequest > svg {
+				fill: var(--monchrome);
+} */
+
+/* Rooms and Directs Head Bar */
+._2xkfmbE0b2UUTNI7Pe-SR4 {
+    background-color: var(--base-colour);
+	height: 40px;
+	min-height: 0px;
+}
+
+    /* Room and Directs Text */
+    ._2wJ9IK0tQpgSzeHzXJyT3D {
+        text-transform: capitalize;
+    }
+
+/* Rooms */
+
+/* Room Section Headers */
+._24QCVGgaI_yk8y13wbgEWe {
+    font-style: italic;
+}
+
+/* /r/SubChats Link in Room List */
+.f-H4y4OBMWm-zTJesHDLp:hover {
+    color: var(--accent-colour);
+    border-color: var(--accent-colour);
+}
+
+/* Unread Channel */
+a._2YXMIjJYTPOEMFDCo2YfeL._31bpHIk9RyhsmrsqCcNMiG {
+    color: var(--accent-colour);
+}
+    
+    /* Unread Channel Icon */
+    a._2YXMIjJYTPOEMFDCo2YfeL._31bpHIk9RyhsmrsqCcNMiG > ._2Qq40Mz_DMe0iARkTh8cZn {
+        fill: var(--accent-colour);
+    }
+
+
+    /* Channel Messages Window */
+
+    /* Channel Header */
+    ._3CVk8skSg_xIxuTdTvDN73 {
+        background-color: var(--base-colour);
+		height: 25px;
+		min-height: 0px;
+    }
+
+		._3CVk8skSg_xIxuTdTvDN73 button._3QHhpmOrsIj9Hy8FecxWKa {
+			background: var(--base-colour);
+		}
+
+/* 			._3CVk8skSg_xIxuTdTvDN73 button._3QHhpmOrsIj9Hy8FecxWKa > svg._2Qq40Mz_DMe0iARkTh8cZn {
+				transform: scale(1.3);
+			} */
+
+		/* Snoo in chat title removal */
+		._3CVk8skSg_xIxuTdTvDN73 > span._1FXx-0D9q_ppO-Wvhxl2SH > span._31wl61nRiy0UL2YxoDjz2D {
+			display: none;
+		}
+
+        /* Channel Header Icon 			
+svg._2Qq40Mz_DMe0iARkTh8cZn._1YPPlxZVDby6iOxA_2zGt5._2xw21QiaL_ouF76MONf7hF {
+            fill: var(--monochrome);
+        }*/
+
+		#OverlayNavTooltip--Default {
+			background-color: var(--base-colour);
+		}
+
+			/* Channel Setting Toast */
+/* 			._1W4rx6zj3WfNob8r3IC3NP {
+				border-radius: 0px;
+				top: calc(100vh - 170px) !important;
+				height: 170px;
+				position: fixed;
+				width: 99vw;
+			} */
+
+	/* Redditor Icons In Channels */
+	._1GdxTd_KdBwXGklhIJkGJa {
+		border-radius: 13px;
+	}
+
+	/* Name and time fix for chat message */
+	.pqdGGYoXaBuzfPrYLoqaM,
+	._17YpjmUgvP6IL4c_hNW34t {
+		margin: 12px 0 0 2px;
+	}
+
+	/* Report flag for messages */
+	._3XbiiumtyFt3sE7RwhZepo {
+		background: none;
+		border: none;
+		display: block;
+		top: -32px;
+		right: 7px;
+	}
+
+/* Directs */
+
+.MkRbNWPhGFV272x8SVGyf {
+	color: var(--monochrome);
+}
+
+/* Directs and Groups */
+._3X4hbg4asgVvLaVYU6dUzs {
+	border-bottom: 1px solid var(--alt-background-colour);
+    padding: 7.2px 7.5px 6px 7px;
+}
+
+._3X4hbg4asgVvLaVYU6dUzs:last-child {
+	margin-bottom: 5px;
+}
+
+    /* Directs and Groups Icon Container */
+    ._31wl61nRiy0UL2YxoDjz2D {
+        margin: 0 7px 0 0;
+    }
+
+        /* Directs and Groups Icon */
+        ._3WnOjkciK_EV9-9Ak459rx {
+            border-radius: 13px;
+        }
+
+/* New Chat Btn */
+.eBsUucD7aSgQuofWx8Jq {
+    background-color: var(--accent-colour);
+    border-radius: 20px;
+    opacity: 1;
+    transform: scale(1.5);
+    z-index: 10;
+    width: 36px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+/* New Chat Button + Symbol */
+.eBsUucD7aSgQuofWx8Jq::after {
+	content: "+";
+	font-size: 30px;
+	position: absolute;
+	top: 8px;
+}
+
+    /* New Chat Btn Icon 
+    .eBsUucD7aSgQuofWx8Jq ._2Qq40Mz_DMe0iARkTh8cZn {
+        fill: var(--monochrome);
+        transform: scale(3);
+    }*/
+
+        /* Start a Chat Text 
+        ._3PwciL3YN1pDFVJw--NedB {
+            display: none;
+        } 	*/
+
+/* NSFW User Alert */
+.v8ouzYTWr_vsFsZU3nJB4 {
+	color: var(--monochrome);
+}
+
+/* Content Meta Data */
+._1MCWBTca7AOAi7tbaohdii {
+	background-color: var(--alt-background-colour);
+	border-radius: 2.5px 2.5px 0px 0px;
+	padding-bottom: 6px;
+}
+
+	._1MCWBTca7AOAi7tbaohdii > ._31wl61nRiy0UL2YxoDjz2D {
+		margin: 9px 0px 0px 9px;
+	}
+
+/* Content Outer Container */
+._19iAGNPVtW4H4cmtpESqQs {
+	background-color: var(--alt-background-colour);
+	padding: 0px;
+}
+
+/* Lst Content Outer Container of Set */
+._19iAGNPVtW4H4cmtpESqQs + ._1MCWBTca7AOAi7tbaohdii {
+	
+}
+
+/* Last Content Outer Container */
+._19iAGNPVtW4H4cmtpESqQs:last-of-type {
+	padding-bottom: 0;
+	margin-bottom: 1em;
+}
+
+	/* Contentn Inner Container */
+	._1nAhIjgz7pfSX4_5eYD8-T._3ey3bKaKuSVt2EZD-7y5ng {
+		background-color: var(--alt-background-colour);
+	}
+
+	/* Icon */
+	._31wl61nRiy0UL2YxoDjz2D {
+		margin: 1px 0 0px 0px;
+	}
+
+/* Self Indecator in Chat */
+._1bCd4DBKF0Osr6neFkpLF3 > ._1q32G7u8aTwBaLUSN_06Cl:after {
+	content: " - You" !important;
+	color: var(--accent-colour);
+}
+
+/* Content Date Indecator */
+._1XAkyv2F6byrdWJg-SHZ7i {
+	
+}
+
+/* Text box emoji fix */
+.lh9ssPWZKUR3-eXgoIPnX {
+	background: none;
+}

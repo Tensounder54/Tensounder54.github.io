@@ -1,0 +1,132 @@
+/* Import Android Font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* We should look to decenterlise this for release. Could we store this in the app's package? */
+
+
+/* For colour scheme see the following root.*/
+
+/* Chats for Slide Vars */
+:root {
+	--base-colour: #E64A19;
+    --accent-colour-light: #ffe180;
+	--accent-colour: #FFC400;
+    --accent-colour-dark: #806200;
+	--background-colour: #181818;
+	--alt-background-colour: #303030;
+    --monochrome-less: #b3b3b3;
+	--monochrome: whitesmoke;
+    --monochrome-er: white;
+    --monochrome-alt: black;
+	--reset-password-text-colour: #517191;
+	--error-colour: red;
+	--top-margin: 25vh;
+}
+
+body,
+#login_reg,
+#login_login {
+	background-color: var(--background-colour);
+	font-family: Roboto;
+}
+
+#topbar, 
+#preload,
+#login_reg > div > ul li.name-entry label,
+#login_login > div > ul li.name-entry label, 
+#login_reg > div > ul li label[for="passwd_login"],
+#login_login > div > ul li label[for="passwd_login"],
+#login_reg > div > ul li:nth-child(3),
+#login_login > div > ul li:nth-child(3)/*,
+ #login_reg div .submit .throbber,
+#login_login div .submit .throbber
+#login_reg div .submit .status,
+#login_login div .submit .status */{ 
+	display: none;
+}
+
+.infobar-toaster-container {
+	border-top-width: 5px;
+	border-bottom-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, var(--background-colour), var(--monochrome)) 30 stretch;
+	display: block;
+}
+
+.error {
+	color: var(--error-colour);
+}
+
+.content {
+	height: 100vh;
+	width: 100vw;
+} 
+
+#login_reg,
+#login_login {
+	border: none;
+	border-radius: 0;
+	font-family: Verdana;
+	height: inherit;
+	margin: 0;
+	max-width: none;
+	padding: 2vw;
+	text-transform: capitalize;
+}
+
+#login_reg div,
+#login_login div {
+	margin-top: var(--top-margin);
+}
+
+/* #login_reg > div > ul li.name-entry,
+#login_login > div > ul li.name-entry
+#login_reg div .submit,
+#login_login div .submit {
+	align-items: center;
+} */
+
+
+
+#login_reg div .submit .button,
+#login_login div .submit .button {
+	background: none;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	color: var(--accent-colour); 
+	font-family: Verdana;
+	text-transform: uppercase;
+	text-shadow: none;
+}
+
+#login_reg > div > ul li.name-entry #user_login,
+#login_login > div > ul li.name-entry #user_login,
+#login_reg > div > ul li #passwd_login,
+#login_login > div > ul li #passwd_login {
+	background: transparent;
+	border-left: none;
+	border-radius: 0px;
+	border-right: none;
+	border-top: none;
+	color: var(--monochrome);
+}
+
+#login_reg > div > ul li #passwd_login,
+#login_login > div > ul li #passwd_login {
+	margin-bottom: 15px;
+}
+
+#eu-cookie-policy .md p {
+	color: var(--monochrome)
+}
+
+#eu-cookie-policy .md p a {
+	color: var(--accent-colour);
+}
+
+/* 
+
+
+*/  
