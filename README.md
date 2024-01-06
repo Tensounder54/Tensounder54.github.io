@@ -6,7 +6,7 @@ So, erm, this is a pages set for me to mess around with from end development. Th
 
 Current pojects:
 
-* [Amoleded](https://github.com/Tensounder54/Amoleded) [CSS File](guilded/themes/amoleded/main.css)
+* [Amoleded](https://github.com/Tensounder54/Amoleded) [CSS File](reguilded/themes/amoleded/main.css)
 
 You can find the [licence file](LICENCE) in the root directory. It's called `LICENCE`. Tensounder54.github.io is licenced under a GNU GPL 3.0 International licence.
 
