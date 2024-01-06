@@ -1,0 +1,167 @@
+/* Eelements */
+
+body {
+    background-color: Black;
+}
+
+/* Server List */
+
+.NavV4Sidebar-container {
+    background-color: Black;
+    border-right: 1px solid var(--contrast);
+}
+
+.NavV4SidebarFooter-container {
+    background-color: Black;
+}
+
+/* Short Server Bar And Channels Lists  Combined*/
+
+.WebAppSidebar-container {
+    border-right: 1px solid var(--contrast);
+}
+
+/* Short Server Bar */
+
+.GroupSelector-container {
+    background-color: Black;
+}
+
+.PortalTarget-container {
+    background-color: Black;
+}
+
+/* Channels Lists */
+
+.TeamNavMenu-container {
+    background-color: Black;
+    border-right: 1px solid var(--contrast);
+    border-left: 1px solid var(--contrast);
+}
+
+.NavV4Footer-footer-content {
+    background-color: Black;
+}
+
+.ChatChannelList-container {
+    background-color: Black;
+}
+
+.NavV4FooterGlobalContextDisplay-teams-wrapper {
+    background-color: Black;
+    border-top: 1px solid var(--contrast);
+}
+
+.NavV4Footer-right {
+    background-color: Black;
+    border-top: 1px solid var(--contrast);
+    border-right: 1px solid var(--contrast);
+    border-left: 1px solid var(--contrast);
+}
+
+/* Context Menues */
+
+.ContextMenu-content {
+    background-color: Black;
+}
+
+.QuickActionBar-container {
+    background-color: Black;
+    border: 1px solid var(--contrast);
+}
+
+.ChannelHeaderMoreOptionsMenu-container {
+    background-color: Black;
+}
+
+/* Chat Header */
+
+.ScreenHeader-container {
+    background-color: Black;
+}
+
+.ChatChannelInputStatusBar-container {
+    background-color: Black;
+    border-right: 1px solid var(--contrast);
+    border-left: 1px solid var(--contrast);
+    border-top: 1px solid var(--contrast);
+}
+
+/* Chat Centers */
+
+.NullStateV2-container {
+    background-color: Black;
+}
+
+.ChatSummary-container {
+    background-color: Black;
+}
+
+.ChannelWrapper-container {
+    background-color: Black;
+}
+
+.OpenGraphEmbed-content {
+    background-color: Black;
+    border: 1px solid var(--contrast);
+}
+
+/* Chat Data */
+
+.ChatV2MessageContents-container-highlighted .ParagraphRenderer {
+    background-color: rgba(248,214,76,.07);
+}
+
+/* .ChatV2Message-container:hover .SlateEditorContext-container {
+    background-color: rgba(41,43,50,.4);
+} */
+
+.MarkRenderer-read-only {
+    background-color: Black;
+    border: 2px solid var(--contrast);
+}
+
+/* Text Boxes */
+
+.SlateEditorContext-container {
+    background-color: Black;
+}
+
+.Editor-container {
+    border-color: var(--contrast);
+}
+
+.PageSidebar-container {
+    background-color: Black;
+    border-left: 1px solid var(--contrast);
+}
+
+.SearchBarInput-container {
+    border: 1px solid var(--contrast);
+}
+
+/* Right Side Bars */
+
+.TeamPageSidebarMembersV2-container,
+.SidebarInfoItem-container {
+    background-color: Black;
+    border: 1px solid var(--contrast);
+}
+
+/* Options Menues */
+
+.SettingsOverlay-container,
+.OptionsMenu-container-desktop .OptionsMenu-options-control,
+.OptionsMenuPageWrapper-container {
+    background-color: Black;
+}
+
+.OptionsMenu-options-control {
+    border-right: 1px solid var(--contrast);
+    border-left: 1px solid var(--contrast);
+    margin-left: 25vw
+}
+
+.OptionsMenuPageWrapper-container {
+    width: 40vw !important;
+}
