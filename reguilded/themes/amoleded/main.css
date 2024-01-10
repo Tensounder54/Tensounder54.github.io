@@ -27,10 +27,6 @@ body {
     background-color: Black;
 }
 
-.PortalTarget-container {
-    background-color: Black;
-}
-
 .NavV4BadgedItemIcons-item-category-has-items:first-child {
     border-top: 1px solid var(--contrast);
 }
@@ -136,6 +132,11 @@ body {
 
 /* Text Boxes */
 
+.DraftInputWithTitleV2-title-wrapper {
+    background-color: Black;
+    border: 1px solid var(--contrast);
+}
+
 .SlateEditorContext-container {
     background-color: Black;
 }
@@ -147,6 +148,12 @@ body {
 .PageSidebar-container {
     background-color: Black;
     border-left: 1px solid var(--contrast);
+}
+
+.SearchBarV2-container {
+    background-color: Black;
+    border: 1px solid var(--contrast);
+    /* z-index: 10000; */
 }
 
 .SearchBarInput-container {
