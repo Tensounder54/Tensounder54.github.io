@@ -1,130 +1,130 @@
 /* Eelements */
 
 body {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 /* Server List */
 
 .NavV4Sidebar-container {
-    background-color: Black;
-    border-right: 1px solid var(--contrast);
+    background-color: var(--primary);
+    border-right: 1px solid var(--secondary);
 }
 
 .NavV4SidebarFooter-container {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 /* Short Server Bar And Channels Lists  Combined*/
 
 .WebAppSidebar-container {
-    border-right: 1px solid var(--contrast);
+    border-right: 1px solid var(--secondary);
 }
 
 /* Short Server Bar */
 
 .GroupSelector-container {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 .NavV4BadgedItemIcons-item-category-has-items:first-child {
-    border-top: 1px solid var(--contrast);
+    border-top: 1px solid var(--secondary);
 }
 
 /* Channels Lists */
 
 .TeamNavHeader-content {
-    border-bottom: 1px solid var(--contrast);
-    border-left: 1px solid var(--contrast); 
+    border-bottom: 1px solid var(--secondary);
+    border-left: 1px solid var(--secondary); 
 }
 
 .TeamNavMenu-container {
-    background-color: Black;
-    border-right: 1px solid var(--contrast);
-    border-left: 1px solid var(--contrast);
+    background-color: var(--primary);
+    border-right: 1px solid var(--secondary);
+    border-left: 1px solid var(--secondary);
 }
 
 .NavV4Footer-footer-content {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 .ChatChannelList-container {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 .NavV4FooterGlobalContextDisplay-teams-wrapper {
-    background-color: Black;
-    border-top: 1px solid var(--contrast);
+    background-color: var(--primary);
+    border-top: 1px solid var(--secondary);
 }
 
 .NavV4Footer-right {
-    background-color: Black;
-    border-top: 1px solid var(--contrast);
-    border-left: 1px solid var(--contrast);
+    background-color: var(--primary);
+    border-top: 1px solid var(--secondary);
+    border-left: 1px solid var(--secondary);
 }
 
 /* Context Menues */
 
 .ContextMenu-content {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 .QuickActionBar-container {
-    background-color: Black;
-    border: 1px solid var(--contrast);
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
 }
 
 .ChannelHeaderMoreOptionsMenu-container {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 /* Chat Header */
 
 .ScreenHeader-container {
-    background-color: Black;
-    border-bottom: 1px solid var(--contrast);
+    background-color: var(--primary);
+    border-bottom: 1px solid var(--secondary);
 }
 
 .ChatChannelInputStatusBar-container {
-    background-color: Black;
-    border-right: 1px solid var(--contrast);
-    border-left: 1px solid var(--contrast);
-    border-top: 1px solid var(--contrast);
+    background-color: var(--primary);
+    border-right: 1px solid var(--secondary);
+    border-left: 1px solid var(--secondary);
+    border-top: 1px solid var(--secondary);
 }
 
 /* Chat Centers */
 
 .NullStateV2-container {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 .TeamPageContent-container {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 .ChatSummary-container {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 .ChannelWrapper-container {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 .OpenGraphEmbed-content {
-    background-color: Black;
-    border: 1px solid var(--contrast);
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
 }
 
 .VoiceChannelDisplay-container-child {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 .StreamChannelDisplay-container {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 .StreamPlayerPlaceholder-background {
-    border: 10px solid var(--contrast);
+    border: 10px solid var(--secondary);
 }
 
 /* Chat Data */
@@ -138,59 +138,59 @@ body {
 } */
 
 .MarkRenderer-read-only {
-    background-color: Black;
-    border: 2px solid var(--contrast);
+    background-color: var(--primary);
+    border: 2px solid var(--secondary);
 }
 
 /* Text Boxes */
 
 .DraftInputWithTitleV2-title-wrapper {
-    background-color: Black;
-    border: 1px solid var(--contrast);
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
 }
 
 .SlateTypeaheadMenuHeader-container {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 .SlateEditorContext-container {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 .MenuItemEnabled-container-highlighted {
     background-color: none !important;
-    border: 1px solid var(--contrast);
+    border: 1px solid var(--secondary);
 }
 
 .Editor-container {
-    border-color: var(--contrast);
+    border-color: var(--secondary);
 }
 
 .TypeaheadDrawer-container {
-    background-color: Black;
-    border: 1px solid var(--contrast);
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
 }
 
 .PageSidebar-container {
-    background-color: Black;
-    border-left: 1px solid var(--contrast);
+    background-color: var(--primary);
+    border-left: 1px solid var(--secondary);
 }
 
 .SearchBarV2-container {
-    background-color: Black;
-    border: 1px solid var(--contrast);
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
 }
 
 .SearchBarInput-container {
-    border: 1px solid var(--contrast);
+    border: 1px solid var(--secondary);
 }
 
 /* Right Side Bars */
 
 .TeamPageSidebarMembersV2-container,
 .SidebarInfoItem-container {
-    background-color: Black;
-    border: 1px solid var(--contrast);
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
 }
 
 /* Options Menues */
@@ -198,12 +198,12 @@ body {
 .SettingsOverlay-container,
 .OptionsMenu-container-desktop .OptionsMenu-options-control,
 .OptionsMenuPageWrapper-container {
-    background-color: Black;
+    background-color: var(--primary);
 }
 
 .OptionsMenu-options-control {
-    border-right: 1px solid var(--contrast);
-    border-left: 1px solid var(--contrast);
+    border-right: 1px solid var(--secondary);
+    border-left: 1px solid var(--secondary);
     margin-left: 25vw
 }
 
