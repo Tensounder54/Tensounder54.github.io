@@ -137,12 +137,26 @@ body {
     border: 1px solid var(--contrast);
 }
 
+.SlateTypeaheadMenuHeader-container {
+    background-color: Black;
+}
+
 .SlateEditorContext-container {
     background-color: Black;
 }
 
+.MenuItemEnabled-container-highlighted {
+    background-color: none !important;
+    border: 1px solid var(--contrast);
+}
+
 .Editor-container {
     border-color: var(--contrast);
+}
+
+.TypeaheadDrawer-container {
+    background-color: Black;
+    border: 1px solid var(--contrast);
 }
 
 .PageSidebar-container {
@@ -153,7 +167,6 @@ body {
 .SearchBarV2-container {
     background-color: Black;
     border: 1px solid var(--contrast);
-    /* z-index: 10000; */
 }
 
 .SearchBarInput-container {
