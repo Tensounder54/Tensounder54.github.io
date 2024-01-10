@@ -31,7 +31,16 @@ body {
     background-color: Black;
 }
 
+.NavV4BadgedItemIcons-item-category-has-items:first-child {
+    border-top: 1px solid var(--contrast);
+}
+
 /* Channels Lists */
+
+.TeamNavHeader-content {
+    border-bottom: 1px solid var(--contrast);
+    border-left: 1px solid var(--contrast); 
+}
 
 .TeamNavMenu-container {
     background-color: Black;
@@ -55,7 +64,6 @@ body {
 .NavV4Footer-right {
     background-color: Black;
     border-top: 1px solid var(--contrast);
-    border-right: 1px solid var(--contrast);
     border-left: 1px solid var(--contrast);
 }
 
@@ -78,6 +86,7 @@ body {
 
 .ScreenHeader-container {
     background-color: Black;
+    border-bottom: 1px solid var(--contrast);
 }
 
 .ChatChannelInputStatusBar-container {
@@ -90,6 +99,10 @@ body {
 /* Chat Centers */
 
 .NullStateV2-container {
+    background-color: Black;
+}
+
+.TeamPageContent-container {
     background-color: Black;
 }
 
