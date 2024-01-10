@@ -115,6 +115,18 @@ body {
     border: 1px solid var(--contrast);
 }
 
+.VoiceChannelDisplay-container-child {
+    background-color: Black;
+}
+
+.StreamChannelDisplay-container {
+    background-color: Black;
+}
+
+.StreamPlayerPlaceholder-background {
+    border: 10px solid var(--contrast);
+}
+
 /* Chat Data */
 
 .ChatV2MessageContents-container-highlighted .ParagraphRenderer {
