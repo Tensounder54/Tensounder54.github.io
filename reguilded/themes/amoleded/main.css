@@ -77,10 +77,43 @@ body {
 .QuickActionBar-container {
     background-color: var(--primary);
     border: 1px solid var(--secondary);
+    border-top: 1px solid var(--secondary);
 }
 
 .ChannelHeaderMoreOptionsMenu-container {
     background-color: var(--primary);
+}
+
+.SelectMenu-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.SelectMenuItem-container-selected {
+    background-color: var(--primary);
+    border-top: 1px solid var(--secondary);
+    border-bottom: 1px solid var(--secondary);
+}
+
+.DayPicker-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.DayPicker-header {
+    background-color: var(--primary);
+    border-bottom: 1px solid var(--secondary);
+}
+
+.DayPicker-day-selected .DayPicker-day-contents {
+    background-color: var(--secondary);
+}
+
+.DayPicker-container-desktop .DayPicker-day:hover .DayPicker-day-contents {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+    border-radius: 100%;
+    color: var(--secondary);
 }
 
 /* Chat Header */
@@ -92,9 +125,9 @@ body {
 
 .ChatChannelInputStatusBar-container {
     background-color: var(--primary);
+    border-top: 1px solid var(--secondary);
     border-right: 1px solid var(--secondary);
     border-left: 1px solid var(--secondary);
-    border-top: 1px solid var(--secondary);
 }
 
 /* Chat Centers */
@@ -148,12 +181,57 @@ body {
     border: 1px solid var(--secondary);
 }
 
-.FullSizedCalendarDay-container:hover {
+.FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create:hover {
     background-color: var(--primary);
+}
+
+.FullSizedCalendarDay-container-desktop .FullSizedCalendarDay-new-event-icon {
+    transition: none;
+}
+
+.FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create:not(.FullSizedCalendarDay-container-today):hover .FullSizedCalendarDayHeader-date {
+    border: 1px solid var(--secondary);
+    border-radius: 100%;
+    opacity: 1;
+}
+
+.FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create.FullSizedCalendarDay-container-today .FullSizedCalendarDayHeader-date::after {
+    content: " - Today";
+    color: var(--secondary);
+    position: relative;
+    left: 30px;
+    top: -25px;
+    height: 0px;
+    width: 50px;
+    display: none;
+}
+
+.FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create.FullSizedCalendarDay-container-today:hover .FullSizedCalendarDayHeader-date::after {
+    display: block;
 }
 
 .FullSizedCalendarDayHeader-date-today {
     background-color: var(--secondary);
+}
+
+.ModalHeaderV2-container {
+    background-color: var(--primary);
+    border-bottom: 1px solid var(--secondary);
+}
+
+.ModalV2-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.Animatable-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.UpcomingCalendarDay-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
 }
 
 .MarkRenderer-read-only {
