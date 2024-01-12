@@ -144,7 +144,7 @@ body {
 }
 
 .FullSizedCalendarDay-container:hover {
-    background-color: 
+    background-color: var(--primary);
 }
 
 .FullSizedCalendarDayHeader-date-today {
