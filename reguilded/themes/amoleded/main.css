@@ -133,9 +133,23 @@ body {
     background-color: rgba(248,214,76,.07);
 }
 
-/* .ChatV2Message-container:hover .SlateEditorContext-container {
-    background-color: rgba(41,43,50,.4);
-} */
+.FullSizedCalendarWeekdayHeader-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.FullSizedCalendarDay-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.FullSizedCalendarDay-container:hover {
+    background-color: 
+}
+
+.FullSizedCalendarDayHeader-date-today {
+    background-color: var(--secondary);
+}
 
 .MarkRenderer-read-only {
     background-color: var(--primary);
@@ -195,13 +209,15 @@ body {
 
 /* Options Menues */
 
-.SettingsOverlay-container,
-.OptionsMenu-container-desktop .OptionsMenu-options-control,
-.OptionsMenuPageWrapper-container {
+.SettingsOverlay-container {
     background-color: var(--primary);
 }
 
+.OptionsMenu-container-desktop .OptionsMenu-options-control {
+    background-color: var(--primary);
+}
 .OptionsMenu-options-control {
+    background-color: var(--primary);
     border-right: 1px solid var(--secondary);
     border-left: 1px solid var(--secondary);
     margin-left: 25vw
