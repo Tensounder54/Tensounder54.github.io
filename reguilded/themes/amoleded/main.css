@@ -229,5 +229,6 @@ body {
 }
 
 .OptionsMenuPageWrapper-container {
+    background-color: var(--primary);
     width: 40vw !important;
 }
