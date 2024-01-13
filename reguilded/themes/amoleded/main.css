@@ -328,6 +328,23 @@ body {
     border: 1px solid var(--secondary);
 }
 
+/* Forums Channels */
+
+.TeamPostRow-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.TeamThreadPostPanelDisplay-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.TeamThreadPostEditor-container  {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
 /* Right Side Bars */
 
 .TeamPageSidebarMembersV2-container,
