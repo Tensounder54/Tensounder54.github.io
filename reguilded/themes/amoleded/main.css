@@ -171,49 +171,6 @@ body {
     background-color: rgba(248,214,76,.07);
 }
 
-.FullSizedCalendarWeekdayHeader-container {
-    background-color: var(--primary);
-    border: 1px solid var(--secondary);
-}
-
-.FullSizedCalendarDay-container {
-    background-color: var(--primary);
-    border: 1px solid var(--secondary);
-}
-
-.FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create:hover {
-    background-color: var(--primary);
-}
-
-.FullSizedCalendarDay-container-desktop .FullSizedCalendarDay-new-event-icon {
-    transition: none;
-}
-
-.FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create:not(.FullSizedCalendarDay-container-today):hover .FullSizedCalendarDayHeader-date {
-    border: 1px solid var(--secondary);
-    border-radius: 100%;
-    opacity: 1;
-}
-
-.FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create.FullSizedCalendarDay-container-today .FullSizedCalendarDayHeader-date::after {
-    content: " - Today";
-    color: var(--secondary);
-    position: relative;
-    left: 30px;
-    top: -25px;
-    height: 0px;
-    width: 50px;
-    display: none;
-}
-
-.FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create.FullSizedCalendarDay-container-today:hover .FullSizedCalendarDayHeader-date::after {
-    display: block;
-}
-
-.FullSizedCalendarDayHeader-date-today {
-    background-color: var(--secondary);
-}
-
 .ModalHeaderV2-container {
     background-color: var(--primary);
     border-bottom: 1px solid var(--secondary);
@@ -280,6 +237,51 @@ body {
 
 .SearchBarInput-container {
     border: 1px solid var(--secondary);
+}
+
+/* Calendar Stuff */
+
+.FullSizedCalendarWeekdayHeader-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.FullSizedCalendarDay-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create:hover {
+    background-color: var(--primary);
+}
+
+.FullSizedCalendarDay-container-desktop .FullSizedCalendarDay-new-event-icon {
+    transition: none;
+}
+
+.FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create:not(.FullSizedCalendarDay-container-today):hover .FullSizedCalendarDayHeader-date {
+    border: 1px solid var(--secondary);
+    border-radius: 100%;
+    opacity: 1;
+}
+
+.FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create.FullSizedCalendarDay-container-today .FullSizedCalendarDayHeader-date::after {
+    content: " - Today";
+    color: var(--secondary);
+    position: relative;
+    left: 30px;
+    top: -25px;
+    height: 0px;
+    width: 50px;
+    display: none;
+}
+
+.FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create.FullSizedCalendarDay-container-today:hover .FullSizedCalendarDayHeader-date::after {
+    display: block;
+}
+
+.FullSizedCalendarDayHeader-date-today {
+    background-color: var(--secondary);
 }
 
 /* Right Side Bars */
