@@ -151,6 +151,15 @@ Elements whitelisted by this philosiphy are as follows:
 - ServerSubscriptionsSectionMemberUpsell-container
 */
 
+.ServerSubscriptionsRecentActivityItems-container {
+    background-color: var(--primary);
+}
+
+.ServerSubscriptionsRecentActivityItem-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
 /* Chat Centers */
 
 .NullStateV2-container {
