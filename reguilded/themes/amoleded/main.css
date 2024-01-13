@@ -239,6 +239,43 @@ body {
     border: 1px solid var(--secondary);
 }
 
+/* Scheduling Stuff */
+
+.SchedulingChannel-container {
+    background-color: var(--primary);
+}
+
+.AvailabilityDisplay-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.AvailabilityDisplayHeader-day {
+    background-color: var(--primary);
+    border-right: 1px solid var(--secondary);
+    border-left: 1px solid var(--secondary);
+}
+
+.AvailabilityDisplayHeader-button {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.AvailabilityDay-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.AvailabilityDayHour-hover {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.CreateAvailabilityControl-intervals:hover {
+    border-right: 1px dashed var(--secondary);
+    transition: border .35s ease-in-out;
+}
+
 /* Calendar Stuff */
 
 .FullSizedCalendarWeekdayHeader-container {
