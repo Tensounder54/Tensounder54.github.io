@@ -239,51 +239,7 @@ body {
     border: 1px solid var(--secondary);
 }
 
-/* Scheduling Stuff */
-
-.SchedulingChannel-container {
-    background-color: var(--primary);
-}
-
-.AvailabilityDisplay-container {
-    background-color: var(--primary);
-    border: 1px solid var(--secondary);
-}
-
-.AvailabilityDisplayHeader-day {
-    background-color: var(--primary);
-    border-right: 1px solid var(--secondary);
-    border-left: 1px solid var(--secondary);
-}
-
-.AvailabilityDisplayHeader-button {
-    background-color: var(--primary);
-    border: 1px solid var(--secondary);
-}
-
-.AvailabilityDay-container {
-    background-color: var(--primary);
-    border: 1px solid var(--secondary);
-}
-
-.AvailabilityDayHour-hover {
-    background-color: var(--primary);
-    border: 1px solid var(--secondary);
-}
-
-.CreateAvailabilityControl-intervals:hover {
-    border-right: 1px dashed var(--secondary);
-    transition: border .35s ease-in-out;
-}
-
-/* Annoucements Channels */
-
-.PostDisplayV2-container {
-    background-color: var(--primary);
-    border: 1px solid var(--secondary);
-}
-
-/* Calendar Stuff */
+/* Calendar Channels */
 
 .FullSizedCalendarWeekdayHeader-container {
     background-color: var(--primary);
@@ -326,6 +282,50 @@ body {
 
 .FullSizedCalendarDayHeader-date-today {
     background-color: var(--secondary);
+}
+
+/* Scheduling Channels */
+
+.SchedulingChannel-container {
+    background-color: var(--primary);
+}
+
+.AvailabilityDisplay-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.AvailabilityDisplayHeader-day {
+    background-color: var(--primary);
+    border-right: 1px solid var(--secondary);
+    border-left: 1px solid var(--secondary);
+}
+
+.AvailabilityDisplayHeader-button {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.AvailabilityDay-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.AvailabilityDayHour-hover {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.CreateAvailabilityControl-intervals:hover {
+    border-right: 1px dashed var(--secondary);
+    transition: border .35s ease-in-out;
+}
+
+/* Annoucements Channels */
+
+.PostDisplayV2-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
 }
 
 /* Right Side Bars */
