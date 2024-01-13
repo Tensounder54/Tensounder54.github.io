@@ -1,3 +1,15 @@
+/* 
+-----------------------------------------------------------------------------------------
+
+I have deliberatly opted to not change upsells and marketing elements related to Guilded.
+If you're reading this then I implore you to do theh same. 
+
+Elements whitelisted by this philosiphy are as follows:
+- ServerSubscriptionsSectionMemberUpsell-container
+
+-----------------------------------------------------------------------------------------
+*/
+
 :root {
     --primary: #000000;
     --secondary: #ececee;
@@ -141,15 +153,6 @@ body {
     background-color: var(--primary);
     border: 1px solid var(--secondary);
 }
-
-/* 
------------------------------------------------------------------------------------------
-I have deliberatly opted to not change upsells and marketing elements related to Guilded.
-If you're reading this then I implore you to do theh same. 
-
-Elements whitelisted by this philosiphy are as follows:
-- ServerSubscriptionsSectionMemberUpsell-container
-*/
 
 .ServerSubscriptionsRecentActivityItems-container {
     background-color: var(--primary);
