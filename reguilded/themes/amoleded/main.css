@@ -236,6 +236,11 @@ body {
     border-left: 1px solid calc(var(--secondary) - 75%);
 }
 
+.TeamEmbedCard-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
 .ChatChannelListItem-container {
     background-color: var(--primary);
     border: 1px solid var(--secondary);
