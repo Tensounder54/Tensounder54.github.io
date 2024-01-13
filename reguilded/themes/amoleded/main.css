@@ -364,6 +364,31 @@ body {
     border: 1px solid var(--secondary);
 }
 
+/* Media Channels */
+
+.MediaDisplayItemV3-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.MediaDisplayItemV3-meta-info-wrapper {
+    border-top: 1px solid var(--secondary);
+}
+
+.MediaSplitView-media {
+    background-color: var(--primary);
+    border-right: 1px solid var(--secondary);
+}
+
+.MediaInfoPane-container {
+    background-color: var(--primary);
+}
+
+.TagDisplayItemV2-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
 /* Right Side Bars */
 
 .TeamPageSidebarMembersV2-container,
