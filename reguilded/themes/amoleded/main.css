@@ -345,6 +345,13 @@ body {
     border: 1px solid var(--secondary);
 }
 
+/* List Channels */
+
+.TeamListItemWrapper-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
 /* Right Side Bars */
 
 .TeamPageSidebarMembersV2-container,
