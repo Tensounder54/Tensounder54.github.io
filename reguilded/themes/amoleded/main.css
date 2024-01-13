@@ -215,6 +215,11 @@ body {
     border-left: 1px solid calc(var(--secondary) - 75%);
 }
 
+.ChatChannelListItem-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
 /* Text Boxes */
 
 .DraftInputWithTitleV2-title-wrapper {
