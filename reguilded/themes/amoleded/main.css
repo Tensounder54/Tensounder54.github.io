@@ -129,11 +129,11 @@ body {
 }
 
 .ActionMenu-container {
-	border: 1px solid var(--secondary);
+    border: 1px solid var(--secondary);
 }
 
 .ActionMenu-section:not(:first-child) {
-	border-top: 1px solid var(--secondary);
+    border-top: 1px solid var(--secondary);
 }
 
 /* Sections Stuff */
