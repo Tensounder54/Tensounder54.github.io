@@ -136,6 +136,17 @@ body {
     border-top: 1px solid var(--secondary);
 }
 
+.ProfileHoverCardOverlay-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.ActionBubbleButton-icon-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+    fill: var(--secondary)
+}
+
 /* Sections Stuff */
 
 .TeamOverviewContentItemCard-container {
@@ -288,7 +299,8 @@ body {
     border-left: 1px solid var(--secondary);
 }
 
-.SearchBarV2-container {
+.SearchBarV2-container,
+.SearchBarV2-container.SearchBarV2-container-focused {
     background-color: var(--primary);
     border: 1px solid var(--secondary);
 }
