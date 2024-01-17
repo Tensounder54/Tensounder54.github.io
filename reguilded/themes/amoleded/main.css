@@ -246,7 +246,7 @@ body {
     border: 1px solid var(--secondary);
 }
 
-/* Text Boxes */
+/* Input Boxes */
 
 .DraftInputWithTitleV2-title-wrapper {
     background-color: var(--primary);
@@ -286,6 +286,26 @@ body {
 }
 
 .SearchBarInput-container {
+    border: 1px solid var(--secondary);
+}
+
+.ReactionPicker-content {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.ReactionPicker-content {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.ItemPickerNavbar-container {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.ReactionPickerFooter-container{
+    background-color: var(--primary);
     border: 1px solid var(--secondary);
 }
 
