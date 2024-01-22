@@ -289,6 +289,39 @@ body {
     border-color: var(--secondary);
 }
 
+.ChatV2MessageContents-editor {
+    border: 1px solid var(--secondary);
+}
+
+.SlateToolbarStrip {
+    border-right: 1px solid var(--secondary);
+    border-left: 1px solid var(--secondary);
+}
+
+.SlateToolbarStrip-iconGroup:not(:last-child) {
+    border-right: 1px solid var(--secondary) !important;
+}
+
+.SlateToolbarStrip-iconGroup:last-child {
+    border-right: 1px solid var(--secondary);
+}
+
+.SlateToolbarStrip {
+    border-right: 1px solid var(--secondary);
+    border-left: 1px solid var(--secondary);
+}
+
+.SlateEditor-editor {
+    border-right: 1px solid var(--secondary);
+    border-left: 1px solid var(--secondary);
+}
+
+.RichTextComposer-controls {
+    border-right: 1px solid var(--secondary);
+    border-bottom: 1px solid var(--secondary);
+    border-left: 1px solid var(--secondary);
+}
+
 .TypeaheadDrawer-container {
     background-color: var(--primary);
     border: 1px solid var(--secondary);
