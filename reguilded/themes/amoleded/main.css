@@ -147,6 +147,10 @@ body {
     fill: var(--secondary)
 }
 
+.FilterWrapper-container {
+    background-color: var(--primary);
+}
+
 /* Sections Stuff */
 
 .TeamOverviewContentItemCard-container {
