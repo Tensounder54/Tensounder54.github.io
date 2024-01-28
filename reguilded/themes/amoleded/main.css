@@ -311,7 +311,12 @@ body {
     border-left: 1px solid var(--secondary);
 }
 
-.SlateEditor-editor {
+.SlateEditorContext-container + div + .SlateToolbarStrip {
+    border-top: 1px solid var(--secondary);
+    border-bottom: 1px solid var(--secondary);
+}
+
+.SlateEditor-editor.SlateEditor-editor-expanded {
     border-right: 1px solid var(--secondary);
     border-left: 1px solid var(--secondary);
 }
