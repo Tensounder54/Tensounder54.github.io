@@ -367,6 +367,24 @@ body {
     border: 1px solid var(--secondary);
 }
 
+/* User Profile */
+
+.UserProfileNavHeader-container {
+    border-bottom: 1px solid var(--secondary);
+}
+
+.WebAppSidebar-container {
+    background-color: var(--primary);
+}
+
+.NavV4SectionSidebar-container {
+    background-color: var(--primary);
+}
+
+.UserProfileV3-container-thick-scrollbar {
+    background-color: var(--primary);
+}
+
 /* Calendar Channels */
 
 .FullSizedCalendarWeekdayHeader-container {
