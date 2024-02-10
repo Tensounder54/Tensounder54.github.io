@@ -2,7 +2,7 @@
 -----------------------------------------------------------------------------------------
 
 I have deliberatly opted to not change upsells and marketing elements related to Guilded.
-If you're reading this then I implore you to do theh same. 
+If you're reading this then I implore you to do the same.
 
 Elements whitelisted by this philosiphy are as follows:
 - ServerSubscriptionsSectionMemberUpsell-container
@@ -247,9 +247,14 @@ body {
     border: 1px solid var(--secondary);
 }
 
+/* .MarkRenderer-read-only:not([class~="MarkRenderer-italic"]),
+.MarkRenderer-read-only:not([class~="MarkRenderer-underline"]),
+.MarkRenderer-read-only:not([class~="MarkRenderer-bold"]),
+.MarkRenderer-read-only:not([class~="MarkRenderer-strikethrough"]),
+.MarkRenderer-read-only:not([class~="MarkRenderer-inline-code-v2"]) */
+
 .MarkRenderer-read-only {
     background-color: var(--primary);
-    border: 2px solid var(--secondary);
 }
 
 .ChatEmbed-body {
