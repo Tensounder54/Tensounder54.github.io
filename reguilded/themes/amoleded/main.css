@@ -360,13 +360,23 @@ body {
     border: 1px solid var(--secondary);
 }
 
+.ChatV2Message-container:hover {
+    border-top: 1px solid var(--secondary);
+    border-bottom: 1px solid var(--secondary);
+}
+
+.ChatV2Message-container:not(.ChatV2Message-container-editing):hover {
+    background-color: inherit;
+}
+
 .SlateTypeaheadMenuHeader-container {
     background-color: var(--primary);
 }
 
+/* Leaving this off for now. May enable it again in future.
 .SlateEditorContext-container {
     background-color: var(--primary);
-}
+} */
 
 .MenuItemEnabled-container-highlighted {
     background-color: none !important;
