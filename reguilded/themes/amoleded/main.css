@@ -104,6 +104,11 @@ body {
     border-top: 1px solid var(--secondary);
 }
 
+.QuickActionBar-action-separator:before,
+.QuickActionBar-action-separator-right:before {
+    background-color: var(--secondary);
+}
+
 .ChannelHeaderMoreOptionsMenu-container {
     background-color: var(--primary);
 }
