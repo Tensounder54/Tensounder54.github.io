@@ -32,6 +32,18 @@ body {
     background-color: var(--primary);
 }
 
+/* Legacy Server List */
+
+.Navbar-container {
+    background-color: var(--primary);
+    border-top: 1px solid var(--secondary);
+}
+
+.Navbar-chat-items:after,
+.NavbarUserControls-avatar:after {
+    background: var(--secondary);
+}
+
 /* Short Server Bar And Channels Lists  Combined*/
 
 .WebAppSidebar-container {
