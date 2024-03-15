@@ -364,8 +364,23 @@ body {
     border: 1px solid var(--secondary);
 }
 
+.EditorV2Display-container-wrapper,
+.ChatChannelInput-container .ChatChannelInput-editor {
+    border-color: var(--secondary)
+}
+
+/* Not sure if this selector is still in use;
+ but I'm going to keep this here for legacy. */
 .Editor-container {
     border-color: var(--secondary);
+}
+
+.EditorV2Context-container {
+    background-color: var(--primary);
+}
+
+.EditorV2InsertToolbar-container:after {
+    background: var(--secondary);
 }
 
 .ChatV2MessageContents-editor {
