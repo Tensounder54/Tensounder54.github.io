@@ -344,6 +344,10 @@ body {
     border: 1px solid var(--secondary);
 }
 
+.WordDividerLine-line {
+    background-color: var(--secondary);
+}
+
 /* Input Boxes */
 
 .DraftInputWithTitleV2-title-wrapper {
