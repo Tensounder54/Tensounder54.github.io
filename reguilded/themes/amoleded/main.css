@@ -257,6 +257,64 @@ body {
     background-color: var(--primary);
 }
 
+.SpoilerRenderer-container{
+    background-color: var(--primary);
+    color: #ececee;
+}
+
+.SpoilerRenderer-read-only {
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    color: rgba(236,236,238,0);
+}
+
+.SpoilerRenderer-read-only.SpoilerRenderer-has-revealed {
+    animation-name: fade-out-text;
+    animation-duration: 300ms;
+    animation-delay: 10ms;
+    animation-fill-mode: forwards;
+    color: #ececee
+}
+
+@keyframes fade-out-text {
+    0% {
+        border: none;
+        color: rgba(236,236,238,0);
+    }
+    5% {
+        border: none;
+        color: rgba(236,236,238,0);
+    }
+    100% {
+        border: 1px solid var(--secondary);
+        color: #ececee;
+    }
+}
+
+.SpoilerRenderer-read-only.SpoilerRenderer-revealed {
+    animation-name: fade-in-text;
+    animation-duration: 300ms;
+    animation-delay: 10ms;
+    animation-fill-mode: forwards;
+    color: rgba(236,236,238,0);
+}
+
+@keyframes fade-in-text {
+    0% {
+        border: 1px solid var(--secondary);
+        color: #ececee;
+    }
+    5% {
+        border: 1px solid var(--secondary);
+        color: #ececee;
+    }
+    100% {
+        border: none;
+        color: rgba(236,236,238,0);
+    }
+}
+
 .ChatEmbed-body {
     background-color: var(--primary);
     border-top: 1px solid calc(var(--secondary) - 75%);
