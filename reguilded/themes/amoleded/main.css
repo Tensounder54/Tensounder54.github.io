@@ -44,7 +44,7 @@ body {
     background: var(--secondary);
 }
 
-/* Short Server Bar And Channels Lists  Combined*/
+/* Short Server Bar And Channels Lists Combined*/
 
 .WebAppSidebar-container {
     border-right: 1px solid var(--secondary);
@@ -90,6 +90,23 @@ body {
     background-color: var(--primary);
     border-top: 1px solid var(--secondary);
     border-left: 1px solid var(--secondary);
+}
+
+.TeamChannelItemContents-container-selected {
+    background: none;
+}
+
+.TeamChannelItemContents-container-selected {
+    text-decoration: underline;
+}
+
+.TeamChannelItemContents-container:hover {
+    border: 1px solid var(--secondary);
+}
+
+.TeamChannelItemContents-container:hover::after {
+    opacity: 0;
+    border: 1px solid var(--secondary);
 }
 
 /* Context Menues */
@@ -151,6 +168,18 @@ body {
 
 .ActionMenu-section:not(:first-child) {
     border-top: 1px solid var(--secondary);
+}
+
+.ChannelHeaderMoreOptionsMenu-section:not(:first-child) {
+    border-top: none;
+}
+
+.ContextMenuItem-container:hover {
+    text-decoration: underline;
+}
+
+.ContextMenuItem-container:hover::after {
+    opacity: 0;
 }
 
 .ProfileHoverCardOverlay-container {
@@ -653,6 +682,25 @@ body {
 .TeamPageSidebarMembersV2-container,
 .SidebarInfoItem-container {
     background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.UserBasicInfoDisplay-container.UserBasicInfoDisplay-container-actionable:hover {
+    border: 1px solid var(--secondary);
+}
+
+.TeamPageSidebarMembersV2-row:hover::after {
+    opacity: 0;
+}
+
+.SimpleIconTabMenuHeaderItem-container-selected:after {
+    background: var(--secondary);
+}
+
+.SimpleIconTabMenuHeaderItem-container:hover,
+.SimpleIconTabMenuHeaderItem-container:active,
+.SimpleIconTabMenuHeaderItem-container:focus {
+    background: none;
     border: 1px solid var(--secondary);
 }
 
