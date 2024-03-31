@@ -25,18 +25,14 @@ body {
 
 .NavV4Sidebar-container {
     background-color: var(--primary);
-    border-right: 1px solid var(--secondary);
 }
 
 .NavV4SidebarFooter-container {
     background-color: var(--primary);
 }
 
-/* Legacy Server List */
-
 .Navbar-container {
     background-color: var(--primary);
-    border-top: 1px solid var(--secondary);
 }
 
 .Navbar-chat-items:after,
@@ -46,9 +42,7 @@ body {
 
 /* Short Server Bar And Channels Lists Combined*/
 
-.WebAppSidebar-container {
-    border-right: 1px solid var(--secondary);
-}
+
 
 /* Short Server Bar */
 
@@ -56,21 +50,13 @@ body {
     background-color: var(--primary);
 }
 
-.NavV4BadgedItemIcons-item-category-has-items:first-child {
-    border-top: 1px solid var(--secondary);
-}
-
 /* Channels Lists */
 
 .TeamNavHeader-content {
-    border-bottom: 1px solid var(--secondary);
-    border-left: 1px solid var(--secondary); 
 }
 
 .TeamNavMenu-container {
     background-color: var(--primary);
-    border-right: 1px solid var(--secondary);
-    border-left: 1px solid var(--secondary);
 }
 
 .NavV4Footer-footer-content {
@@ -83,31 +69,9 @@ body {
 
 .NavV4FooterGlobalContextDisplay-teams-wrapper {
     background-color: var(--primary);
-    border-top: 1px solid var(--secondary);
-}
 
 .NavV4Footer-right {
     background-color: var(--primary);
-    border-top: 1px solid var(--secondary);
-    border-left: 1px solid var(--secondary);
-}
-
-.TeamChannelItemContents-container-selected {
-    background: none;
-}
-
-.TeamChannelItemContents-container-selected {
-    text-decoration: underline;
-}
-
-.TeamChannelItemContents-container:hover {
-    border: 1px solid var(--secondary);
-}
-
-.TeamChannelItemContents-container:hover::after {
-    opacity: 0;
-    border: 1px solid var(--secondary);
-}
 
 /* Context Menues */
 
@@ -117,8 +81,6 @@ body {
 
 .QuickActionBar-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
-    border-top: 1px solid var(--secondary);
 }
 
 .QuickActionBar-action-separator:before,
@@ -132,23 +94,18 @@ body {
 
 .SelectMenu-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .SelectMenuItem-container-selected {
     background-color: var(--primary);
-    border-top: 1px solid var(--secondary);
-    border-bottom: 1px solid var(--secondary);
 }
 
 .DayPicker-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .DayPicker-header {
     background-color: var(--primary);
-    border-bottom: 1px solid var(--secondary);
 }
 
 .DayPicker-day-selected .DayPicker-day-contents {
@@ -157,21 +114,8 @@ body {
 
 .DayPicker-container-desktop .DayPicker-day:hover .DayPicker-day-contents {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
     border-radius: 100%;
     color: var(--secondary);
-}
-
-.ActionMenu-container {
-    border: 1px solid var(--secondary);
-}
-
-.ActionMenu-section:not(:first-child) {
-    border-top: 1px solid var(--secondary);
-}
-
-.ChannelHeaderMoreOptionsMenu-section:not(:first-child) {
-    border-top: none;
 }
 
 .ContextMenuItem-container:hover {
@@ -184,12 +128,10 @@ body {
 
 .ProfileHoverCardOverlay-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .ActionBubbleButton-icon-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
     fill: var(--secondary)
 }
 
@@ -201,12 +143,10 @@ body {
 
 .TeamOverviewContentItemCard-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .TeamApplicationInlineLink-container  {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .ServerSubscriptionsRecentActivityItems-container {
@@ -215,21 +155,16 @@ body {
 
 .ServerSubscriptionsRecentActivityItem-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 /* Chat Header */
 
 .ScreenHeader-container {
     background-color: var(--primary);
-    border-bottom: 1px solid var(--secondary);
 }
 
 .ChatChannelInputStatusBar-container {
     background-color: var(--primary);
-    border-top: 1px solid var(--secondary);
-    border-right: 1px solid var(--secondary);
-    border-left: 1px solid var(--secondary);
 }
 
 /* Chat Centers */
@@ -246,13 +181,15 @@ body {
     background-color: var(--primary);
 }
 
-.ChannelWrapper-container {
+.ChannelWrapper-container,
+.ScreenHeader-container,
+.ChannelWrapper-contents,
+.Scrollable-container-thick-scrollbar-extra-padding, {
     background-color: var(--primary);
 }
 
 .OpenGraphEmbed-content {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .VoiceChannelDisplay-container-child {
@@ -263,10 +200,6 @@ body {
     background-color: var(--primary);
 }
 
-.StreamPlayerPlaceholder-background {
-    border: 10px solid var(--secondary);
-}
-
 /* Chat Data */
 
 .ChatV2MessageContents-container-highlighted .ParagraphRenderer {
@@ -275,22 +208,18 @@ body {
 
 .ModalHeaderV2-container {
     background-color: var(--primary);
-    border-bottom: 1px solid var(--secondary);
 }
 
 .ModalV2-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .Animatable-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .UpcomingCalendarDay-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 /* .MarkRenderer-read-only:not([class~="MarkRenderer-italic"]),
@@ -303,64 +232,6 @@ body {
     background-color: var(--primary);
 }
 
-.SpoilerRenderer-container{
-    background-color: var(--primary);
-    color: #ececee;
-}
-
-.SpoilerRenderer-read-only {
-    -webkit-user-select: none;
-    user-select: none;
-    cursor: pointer;
-    color: rgba(236,236,238,0);
-}
-
-.SpoilerRenderer-read-only.SpoilerRenderer-has-revealed {
-    animation-name: fade-out-text;
-    animation-duration: 300ms;
-    animation-delay: 10ms;
-    animation-fill-mode: forwards;
-    color: #ececee
-}
-
-@keyframes fade-out-text {
-    0% {
-        border: none;
-        color: rgba(236,236,238,0);
-    }
-    5% {
-        border: none;
-        color: rgba(236,236,238,0);
-    }
-    100% {
-        border: 1px solid var(--secondary);
-        color: #ececee;
-    }
-}
-
-.SpoilerRenderer-read-only.SpoilerRenderer-revealed {
-    animation-name: fade-in-text;
-    animation-duration: 300ms;
-    animation-delay: 10ms;
-    animation-fill-mode: forwards;
-    color: rgba(236,236,238,0);
-}
-
-@keyframes fade-in-text {
-    0% {
-        border: 1px solid var(--secondary);
-        color: #ececee;
-    }
-    5% {
-        border: 1px solid var(--secondary);
-        color: #ececee;
-    }
-    100% {
-        border: none;
-        color: rgba(236,236,238,0);
-    }
-}
-
 .ChatEmbed-body {
     background-color: var(--primary);
     border-top: 1px solid calc(var(--secondary) - 75%);
@@ -370,12 +241,12 @@ body {
 
 .TeamEmbedCard-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
+    /*border: 1px solid var(--secondary);*/
 }
 
 .ChatChannelListItem-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
+    /*border: 1px solid var(--secondary);*/
 }
 
 .WordDividerLine-line {
@@ -386,12 +257,12 @@ body {
 
 .DraftInputWithTitleV2-title-wrapper {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
+    /*border: 1px solid var(--secondary);*/
 }
 
 .ChatV2Message-container:hover {
-    border-top: 1px solid var(--secondary);
-    border-bottom: 1px solid var(--secondary);
+    /*border-top: 1px solid var(--secondary);*/
+    /*border-bottom: 1px solid var(--secondary);*/
 }
 
 .ChatV2Message-container:not(.ChatV2Message-container-editing):hover {
@@ -400,17 +271,13 @@ body {
 
 .SlateTypeaheadMenuHeader-container {
     background-color: var(--primary);
+    /*border-bottom: 1px solid var(--secondary);*/
 }
 
 /* Leaving this off for now. May enable it again in future.
 .SlateEditorContext-container {
     background-color: var(--primary);
 } */
-
-.MenuItemEnabled-container-highlighted {
-    background-color: none !important;
-    border: 1px solid var(--secondary);
-}
 
 .EditorV2Display-container-wrapper,
 .ChatChannelInput-container .ChatChannelInput-editor {
@@ -431,89 +298,40 @@ body {
     background: var(--secondary);
 }
 
-.ChatV2MessageContents-editor {
-    border: 1px solid var(--secondary);
-}
-
-.SlateToolbarStrip {
-    border-right: 1px solid var(--secondary);
-    border-left: 1px solid var(--secondary);
-}
-
 .SlateToolbarStrip-iconGroup:not(:last-child) {
     border-right: 1px solid var(--secondary) !important;
 }
 
-.SlateToolbarStrip-iconGroup:last-child {
-    border-right: 1px solid var(--secondary);
-}
-
-.SlateToolbarStrip {
-    border-right: 1px solid var(--secondary);
-    border-left: 1px solid var(--secondary);
-}
-
-.SlateEditorContext-container + div + .SlateToolbarStrip {
-    border-top: 1px solid var(--secondary);
-    border-bottom: 1px solid var(--secondary);
-}
-
-.SlateEditor-editor.SlateEditor-editor-expanded {
-    border-right: 1px solid var(--secondary);
-    border-left: 1px solid var(--secondary);
-}
-
-.RichTextComposer-controls {
-    border-right: 1px solid var(--secondary);
-    border-bottom: 1px solid var(--secondary);
-    border-left: 1px solid var(--secondary);
-}
-
 .TypeaheadDrawer-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .PageSidebar-container {
     background-color: var(--primary);
-    border-left: 1px solid var(--secondary);
 }
 
 .SearchBarV2-container,
 .SearchBarV2-container.SearchBarV2-container-focused {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
-}
-
-.SearchBarInput-container {
-    border: 1px solid var(--secondary);
 }
 
 .ReactionPicker-content {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .ReactionPicker-content {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .ItemPickerNavbar-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .ReactionPickerFooter-container{
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 /* User Profile */
-
-.UserProfileNavHeader-container {
-    border-bottom: 1px solid var(--secondary);
-}
 
 .WebAppSidebar-container {
     background-color: var(--primary);
@@ -531,12 +349,10 @@ body {
 
 .FullSizedCalendarWeekdayHeader-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .FullSizedCalendarDay-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create:hover {
@@ -544,24 +360,12 @@ body {
 }
 
 .FullSizedCalendarDay-container-desktop .FullSizedCalendarDay-new-event-icon {
-    transition: none;
+    transition: /*none*/;
 }
 
 .FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create:not(.FullSizedCalendarDay-container-today):hover .FullSizedCalendarDayHeader-date {
-    border: 1px solid var(--secondary);
     border-radius: 100%;
     opacity: 1;
-}
-
-.FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create.FullSizedCalendarDay-container-today .FullSizedCalendarDayHeader-date::after {
-    content: " - Today";
-    color: var(--secondary);
-    position: relative;
-    left: 30px;
-    top: -25px;
-    height: 0px;
-    width: 50px;
-    display: none;
 }
 
 .FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create.FullSizedCalendarDay-container-today:hover .FullSizedCalendarDayHeader-date::after {
@@ -580,28 +384,22 @@ body {
 
 .AvailabilityDisplay-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .AvailabilityDisplayHeader-day {
     background-color: var(--primary);
-    border-right: 1px solid var(--secondary);
-    border-left: 1px solid var(--secondary);
 }
 
 .AvailabilityDisplayHeader-button {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .AvailabilityDay-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .AvailabilityDayHour-hover {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .CreateAvailabilityControl-intervals:hover {
@@ -613,59 +411,46 @@ body {
 
 .PostDisplayV2-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 /* Forums Channels */
 
 .TeamPostRow-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .TeamThreadPostPanelDisplay-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .TeamThreadPostEditor-container  {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 /* List Channels */
 
 .TeamListItemWrapper-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 /* Docs Channels */
 
 .DocDisplayItem-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 .DocSummaryInfo-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 /* Media Channels */
 
 .MediaDisplayItemV3-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
-}
-
-.MediaDisplayItemV3-meta-info-wrapper {
-    border-top: 1px solid var(--secondary);
 }
 
 .MediaSplitView-media {
     background-color: var(--primary);
-    border-right: 1px solid var(--secondary);
 }
 
 .MediaInfoPane-container {
@@ -674,7 +459,6 @@ body {
 
 .TagDisplayItemV2-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
 /* Right Side Bars */
@@ -682,26 +466,14 @@ body {
 .TeamPageSidebarMembersV2-container,
 .SidebarInfoItem-container {
     background-color: var(--primary);
-    border: 1px solid var(--secondary);
 }
 
-.UserBasicInfoDisplay-container.UserBasicInfoDisplay-container-actionable:hover {
-    border: 1px solid var(--secondary);
-}
-
-.TeamPageSidebarMembersV2-row:hover::after {
-    opacity: 0;
+.SidebarInviteButton-icon-wrapper {
+    background-color: #00000000;
 }
 
 .SimpleIconTabMenuHeaderItem-container-selected:after {
     background: var(--secondary);
-}
-
-.SimpleIconTabMenuHeaderItem-container:hover,
-.SimpleIconTabMenuHeaderItem-container:active,
-.SimpleIconTabMenuHeaderItem-container:focus {
-    background: none;
-    border: 1px solid var(--secondary);
 }
 
 /* Options Menues */
@@ -715,13 +487,10 @@ body {
 }
 .OptionsMenu-options-control {
     background-color: var(--primary);
-    border-right: 1px solid var(--secondary);
-    border-left: 1px solid var(--secondary);
     margin-left: 25vw
 }
 
 .OptionsMenuPageWrapper-container {
     background-color: var(--primary);
-    border-right: 1px solid var(--secondary);
     width: 40vw !important;
 }
